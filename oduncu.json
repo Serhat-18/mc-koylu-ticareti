@@ -1,0 +1,29 @@
+summon minecraft:villager 19.700 -60.0 -3.300 {
+    CustomName: '{"text":"Oduncu"}',
+    CustomNameVisible: 1,
+    NoAI: 1b,
+    Invulnerable: 1b,
+    VillagerData: {type:"plains", profession:"leatherworker", level:5},
+    Offers: {
+        Recipes: [
+            {
+                buy: {id: "minecraft:emerald", count: 5},
+                sell: {id: "minecraft:oak_planks", count: 20},
+                maxUses: 9999999,
+                rewardExp: 0b
+            },
+            {
+                buy: {id: "minecraft:emerald", count: 40},
+                sell: {id: "minecraft:oak_wood", count: 10},
+                maxUses: 9999999,
+                rewardExp: 0b
+            },
+            {
+                buy: {id: "minecraft:emerald", count: 2},
+                sell: {id: "minecraft:stick", count: 15},
+                maxUses: 9999999,
+                rewardExp: 0b
+            },
+        ]
+    }
+}

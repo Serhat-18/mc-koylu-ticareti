@@ -1,0 +1,29 @@
+summon minecraft:villager 15.400 -60.0 -3.300 {
+    CustomName: '{"text":"Madenci"}',
+    CustomNameVisible: 1,
+    NoAI: 1b,
+    Invulnerable: 1b,
+    VillagerData: {type:"plains", profession:"librarian", level:5},
+    Offers: {
+        Recipes: [
+            {
+                buy: {id: "minecraft:emerald", count: 64},
+                sell: {id: "minecraft:netherite_ingot", count: 1},
+                maxUses: 9999999,
+                rewardExp: 0b
+            },
+            {
+                buy: {id: "minecraft:emerald", count: 50},
+                sell: {id: "minecraft:diamond", count: 1},
+                maxUses: 9999999,
+                rewardExp: 0b
+            },
+            {
+                buy: {id: "minecraft:emerald", count: 35},
+                sell: {id: "minecraft:gold_ingot", count: 1},
+                maxUses: 9999999,
+                rewardExp: 0b
+            },
+        ]
+    }
+}

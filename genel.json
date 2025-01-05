@@ -1,0 +1,36 @@
+summon minecraft:villager 0.478 -60.0 -3.7 { 
+    CustomName: '{"text":"Genel Tüccar"}',
+    CustomNameVisible: 1,
+    NoAI: 1b,
+    Silent: 1b,
+    Invulnerable: 1b,
+    VillagerData: {type:"plains", profession:"butcher", level:5},
+    Offers: {
+        Recipes: [
+            {
+                buy: {id: "minecraft:emerald", count: 30},
+                sell: {id: "minecraft:dirt", count: 20},
+                maxUses: 9999999,
+                rewardExp: 0b
+            },
+            {
+                buy: {id: "minecraft:emerald", count: 40},
+                sell: {id: "minecraft:stone", count: 20},
+                maxUses: 9999999,
+                rewardExp: 0b
+            },
+            {
+                buy: {id: "minecraft:emerald", count: 18},
+                sell: {id: "minecraft:bed", count: 1},
+                maxUses: 9999999,
+                rewardExp: 0b
+            },
+            {
+                buy: {id: "minecraft:emerald", count: 17},
+                sell: {id: "minecraft:white_wool", count: 3},
+                maxUses: 9999999,
+                rewardExp: 0b
+            }
+        ]
+    }
+}

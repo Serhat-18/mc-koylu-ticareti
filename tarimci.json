@@ -1,0 +1,36 @@
+summon minecraft:villager -1.412 -60.0 -3.622 { 
+    CustomName: '{"text":"Tarimci"}',
+    CustomNameVisible: 1,
+    NoAI: 1b,
+    Silent: 1b,
+    Invulnerable: 1b,
+    VillagerData: {type:"plains", profession:"farmer", level:5},
+    Offers: {
+        Recipes: [
+            {
+                buy: {id: "minecraft:emerald", count: 10},
+                sell: {id: "minecraft:lava_bucket", count: 1},
+                maxUses: 9999999,
+                rewardExp: 0b
+            },
+            {
+                buy: {id: "minecraft:wheat", count: 20},
+                sell: {id: "minecraft:emerald", count: 1},
+                maxUses: 9999999,
+                rewardExp: 0b
+            },
+            {
+                buy: {id: "minecraft:bread", count: 15},
+                sell: {id: "minecraft:emerald", count: 30},
+                maxUses: 9999999,
+                rewardExp: 0b
+            },
+            {
+                buy: {id: "minecraft:wheat_seeds", count: 10},
+                sell: {id: "minecraft:emerald", count: 5},
+                maxUses: 9999999,
+                rewardExp: 0b
+            }
+        ]
+    }
+}
